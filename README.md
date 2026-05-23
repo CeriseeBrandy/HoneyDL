@@ -3,12 +3,14 @@
 Minimal cozy terminal downloader for YouTube & Spotify.
 
 HoneyDL is a lightweight Linux downloader focused on:
+
 - simplicity
 - beautiful terminal UI
 - fast workflow
 - zero bloat
 
 Built with:
+
 - Python
 - yt-dlp
 - spotdl
@@ -17,7 +19,7 @@ Built with:
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 - 🎵 YouTube audio download
 - 🎬 YouTube video download
@@ -34,13 +36,13 @@ Built with:
 
 ---
 
-## 📸 Preview
+# 📸 Preview
 
 ![HoneyDL Preview](release/screen.png)
 
 ---
 
-## 📦 Download
+# 📦 Download
 
 Download the latest AppImage from the Releases section.
 
@@ -49,22 +51,36 @@ Then:
 ```bash
 chmod +x HoneyDL-1.0.0-x86_64.AppImage
 ./HoneyDL-1.0.0-x86_64.AppImage
-🐧 Supported Platforms
-Linux
-Bazzite
-Fedora
-Ubuntu
-Arch Linux
-Steam Deck
-🚀 Technologies
-Python
-yt-dlp
-spotdl
-Rich
-Questionary
-PyInstaller
-AppImage
-📁 Project Structure
+```
+
+---
+
+# 🐧 Supported Platforms
+
+- Linux
+- Bazzite
+- Fedora
+- Ubuntu
+- Arch Linux
+- Steam Deck
+
+---
+
+# 🚀 Technologies
+
+- Python
+- yt-dlp
+- spotdl
+- Rich
+- Questionary
+- PyInstaller
+- AppImage
+
+---
+
+# 📁 Project Structure
+
+```txt
 HoneyDL/
 ├── honeydl/
 │   ├── app.py
@@ -72,15 +88,25 @@ HoneyDL/
 ├── release/
 ├── pyproject.toml
 └── README.md
-🍯 Philosophy
+```
+
+---
+
+# 🍯 Philosophy
 
 HoneyDL was designed to feel:
 
-fast
-cozy
-terminal-native
-aesthetic
-ultra simple
+- fast
+- cozy
+- terminal-native
+- aesthetic
+- ultra simple
 
-No clutter.
+No clutter.  
 Just paste. Choose. Download.
+
+---
+
+# 📜 License
+
+MIT
