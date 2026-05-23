@@ -1,0 +1,15 @@
+[project]
+name = "honeydl"
+version = "1.0.0"
+description = "Minimal cozy YouTube and Spotify downloader"
+requires-python = ">=3.10"
+
+dependencies = [
+    "rich",
+    "questionary",
+    "yt-dlp",
+    "spotdl"
+]
+
+[project.scripts]
+honeydl = "honeydl.app:main"
